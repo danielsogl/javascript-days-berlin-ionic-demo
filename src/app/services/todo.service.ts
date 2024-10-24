@@ -17,6 +17,8 @@ export class TodoService {
     return this.state.todos();
   });
 
+  // TODO: persist state using capacitor
+
   constructor() {
     this.addTodo(generateTodo());
     this.addTodo(generateTodo());
